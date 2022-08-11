@@ -1,0 +1,41 @@
+@import './variables';
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+// .App {
+// background-color: $myColor;
+// }
+
+
+body {
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $myColor;
+}
+
+.navigation {
+    width: $myWidth;
+    background-color: $bkColor;
+
+    & li>a {
+        text-decoration: none;
+    }
+}
+
+.menu {
+    @include theBorder(blue, 5px);
+    background-color: $bkColorSecondary;
+
+    &__link {
+        background-color: whitesmoke;
+        border: solid red;
+    }
+
+
+}

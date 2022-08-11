@@ -1,0 +1,15 @@
+$myColor: rgb(11, 239, 198);
+$bkColor: rgb(238, 108, 238);
+$bkColorSecondary: darksalmon;
+
+$myFont: Helvetica, sans-serif;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+@mixin theBorder($myColor, $myWidth) {
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: 10px;
+
+    border: $myWidth solid $myColor;
+}
