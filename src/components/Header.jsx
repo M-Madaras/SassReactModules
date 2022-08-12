@@ -17,7 +17,7 @@ const Header = () => {
             </div>
 
 
-            <div className={styles['mod']}>
+            <div className={styles['mod', 'mod2324']}>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptatum officia ipsam earum eius optio similique enim, laborum veniam et magni quasi natus commodi provident qui nam dolores sit molestias.</p>
             </div>
 
